@@ -7,10 +7,10 @@ module PC(
 
 always @(posedge clk or posedge reset) begin
 	if(reset)begin
-		acumulador <= 32'd0;
+		acumulador = 32'd0;
 	end
 	else begin
-		acumulador <= acumulador + contador;
+		acumulador =  contador;
 	end
 end
 

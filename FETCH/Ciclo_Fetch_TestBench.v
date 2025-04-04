@@ -18,9 +18,10 @@ end
 
 initial begin 
 	reset = 1'b1;
-	#2;
+	#20;
 	reset = 1'b0;
-	#2;
+	#100;
+	$finish;
 end
 
 endmodule
