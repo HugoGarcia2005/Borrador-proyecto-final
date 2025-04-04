@@ -1,14 +1,16 @@
 module FETCH (
 	input clk,
-	output instruccion
+	input reset,
+	output [31:0] instruccion
 );
 
-wire pc_sumador_address;
-wire sumador_pc;
+wire [31:0] pc_sumador_address;
+wire [31:0] sumador_pc;
 
 PC pc_fetch(
 	.contador(sumador_pc),
 	.clk(clk),
+	.reset(reset),
 	.acumulador(pc_sumador_address)
 );
 
