@@ -1,0 +1,19 @@
+Opcode	Rs	Rt	RD	Shamt	Funct
+6b	5b	5b	5b	5b	6b
+
+
+Opceraciones ADD,SUB,SLT:
+Para las instrucciones tipo-R, el opcode es siempre 000000, ya que el campo funct determinará la operación exacta (ADD, SUB, SLT, AND, etc.).
+
+Ejemplo: 
+ADD $8 $9 $10
+
+Decodificacion:
+000000	01001	01010	01000	00000	100000
+Cero	$9	$10	$8	NA	ADD
+
+Funciona de la misma manera para las otras operaciones aritmeticas
+
+ADD:	100000
+SUB:	100010
+SLT:	101010
