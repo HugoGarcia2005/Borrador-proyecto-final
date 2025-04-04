@@ -14,6 +14,7 @@ Cero	$9	$10	$8	NA	ADD
 
 Funciona de la misma manera para las otras operaciones aritmeticas
 
+      Funct
 ADD:	100000
 SUB:	100010
 SLT:	101010
