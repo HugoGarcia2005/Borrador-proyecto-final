@@ -7,7 +7,9 @@ from ttkbootstrap.constants import *
 FUNCT_CODES = {
     "ADD": "100000",  # 0x20
     "SUB": "100010",  # 0x22
-    "SLT": "101010"   # 0x2A
+    "SLT": "101010",  # 0x2A
+    "AND": "100100",
+    "NOT": "000000"
 }
 
 def register_to_bin(reg_str, bits=5):
