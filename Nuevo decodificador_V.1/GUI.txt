@@ -1,4 +1,0 @@
-pip install ttkbootstrap
-python -m pip install ttkbootstrap
-
-en CMD
