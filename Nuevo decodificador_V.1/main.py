@@ -7,6 +7,7 @@ R_TYPE = {
     "SUB": {"opcode": "000000", "funct": "100010", "format": "RD, RS, RT"},
     "SLT": {"opcode": "000000", "funct": "101010", "format": "RD, RS, RT"},
     "AND": {"opcode": "000000", "funct": "100100", "format": "RD, RS, RT"},
+    "OR": {"opcode": "000000", "funct": "100101", "format": "RD, RS, RT"},
     "NOP": {"opcode": "000000", "funct": "000000", "format": ""}
 }
 
