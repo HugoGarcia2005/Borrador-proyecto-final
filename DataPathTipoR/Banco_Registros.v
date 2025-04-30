@@ -16,8 +16,7 @@ end
 
 always @* begin
     if (RegEn) begin
-        MEM_BANCO[W_register] = W_data; // Escritura bloqueante
-        // Ignorar lecturas durante escritura para evitar bucle
+        MEM_BANCO[W_register] = W_data;
         R_data_1 = MEM_BANCO[R_register_1];
         R_data_2 = MEM_BANCO[R_register_2];
     end else begin
