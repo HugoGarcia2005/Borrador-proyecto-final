@@ -165,9 +165,15 @@ class ASMConverterApp:
                     bin_lines = parse_instruction(line)
                     if bin_lines:
                         output_lines.extend(bin_lines)
-            with open("Instrucciones.txt", 'w') as f:
+            
+            # Cambia esta línea para guardar en el escritorio
+            import os
+            desktop = os.path.join(os.path.expanduser("~"), "Desktop")
+            output_path = os.path.join(desktop, "Instrucciones.txt")
+            
+            with open(output_path, 'w') as f:
                 f.write("\n".join(output_lines))
-            messagebox.showinfo("Éxito", "Archivo generado correctamente.")
+            messagebox.showinfo("Éxito", f"Archivo guardado en:\n{output_path}")
         except Exception as e:
             messagebox.showerror("Error", f"Error al decodificar:\n{e}")
 
