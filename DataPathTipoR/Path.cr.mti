@@ -1,0 +1,57 @@
+{C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath_TB
+
+Top level modules:
+	DataPath_TB
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module BR
+
+Top level modules:
+	BR
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM
+
+Top level modules:
+	MEM
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UC
+
+Top level modules:
+	UC
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DPTR
+
+Top level modules:
+	DPTR
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AC
+
+Top level modules:
+	AC
+
+} {} {}} {C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v} {1 {vlog -work work -stats=none {C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

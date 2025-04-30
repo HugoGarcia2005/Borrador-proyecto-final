@@ -10,49 +10,49 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vAC
-Z0 !s110 1745980305
+Z0 !s110 1745991710
 !i10b 1
-!s100 1@ezA0<9:M8Yn9X03XaSM0
+!s100 lD58HYFQiL?<cQ87j7>]z0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IQ7A:5hMV1n9obE44G@bjL3
+INDgGgP9::8:k]S>Hb5RzA3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR
-w1745978267
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu_Control.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu_Control.v
-!i122 23
+Z3 dC:/Users/Yogo/Desktop/Nueva carpeta
+w1745983024
+8C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v
+!i122 147
 L0 1 51
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1745980305.000000
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu_Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu_Control.v|
+Z5 !s108 1745991710.000000
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
 n@a@c
 vALU
-R0
+Z8 !s110 1745991711
 !i10b 1
-!s100 599K3B?JHDCB=b5ck_ZP:1
+!s100 _nD2<oA7]Dm1UEIW<97WZ3
 R1
-Ik=IXk46Al7jdB`XK0KXlB3
+IgCS0D^:=lF6`aY;DgMgII3
 R2
 R3
-w1745976846
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu.v
-!i122 24
-L0 1 45
+w1745981675
+8C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Alu.v
+!i122 148
+L0 1 50
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu.v|
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v|
 !i113 1
 R6
 R7
@@ -60,119 +60,143 @@ n@a@l@u
 vBR
 R0
 !i10b 1
-!s100 >`0?@UDk6?cT2]U>zSIGN2
+!s100 I9>[:Sl`6jlf;UJMQkaZH2
 R1
-I=M884>GVNU58F41b@9Q3k0
+I8?4eMAm=838hzdoI:IIz51
 R2
 R3
-w1745977547
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Banco_Registros.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Banco_Registros.v
-!i122 22
-L0 1 28
+w1745990818
+8C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v
+!i122 146
+L0 1 29
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Banco_Registros.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Banco_Registros.v|
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v|
 !i113 1
 R6
 R7
 n@b@r
+vDataPath_TB
+R8
+!i10b 1
+!s100 @82?DmhaB6j`;_bN5]=no1
+R1
+I8TY24lm[=NY`b7_jjP60o2
+R2
+R3
+w1745991703
+8C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v
+!i122 149
+L0 2 21
+R4
+r1
+!s85 0
+31
+!s108 1745991711.000000
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v|
+!i113 1
+R6
+R7
+n@data@path_@t@b
 vDPTR
-Z8 !s110 1745980306
+R0
 !i10b 1
 !s100 7@U]m1RiEK=g:oEWmCT`m3
 R1
-ICS3F=KLamlK1o61_R3W?^1
+IdR:_ZQL27i9_Bh@^0;h>>3
 R2
 R3
-w1745980276
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Data_Path_Rtype.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Data_Path_Rtype.v
-!i122 27
+w1745981327
+8C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v
+!i122 145
 L0 1 66
 R4
 r1
 !s85 0
 31
-Z9 !s108 1745980306.000000
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Data_Path_Rtype.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Data_Path_Rtype.v|
+R5
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v|
 !i113 1
 R6
 R7
 n@d@p@t@r
 vMEM
-R8
+R0
 !i10b 1
 !s100 PNU41JTKjO8ZIlA4aXBhS2
 R1
-Iik]C4fe:lO1mUd3RhTnU`3
+I7jzSc?nVXPP>1F@SNQRz23
 R2
 R3
-w1745978480
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Memoria_Datos.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Memoria_Datos.v
-!i122 25
+w1745981323
+8C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v
+!i122 144
 L0 1 26
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Memoria_Datos.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Memoria_Datos.v|
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v|
 !i113 1
 R6
 R7
 n@m@e@m
 vMUX
-R8
+R0
 !i10b 1
 !s100 2:c0mcefaSk^CEO_XX<Yo2
 R1
-I;TNC=;iNAIgG9hRhF[4SA2
+Ice`=JL7lCl1_;U]5h7:Q40
 R2
 R3
-w1745978879
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Multiplexor.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Multiplexor.v
-!i122 26
+w1745981320
+8C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v
+!i122 143
 L0 1 17
 R4
 r1
 !s85 0
 31
-R9
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Multiplexor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Multiplexor.v|
+!s108 1745991709.000000
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v|
 !i113 1
 R6
 R7
 n@m@u@x
 vUC
-R0
+!s110 1745991709
 !i10b 1
 !s100 [4]Vzl0Xc63fgb?^;Jekf3
 R1
-I;6eokUHd=40<?WZ5[XT7S2
+IkB2AdPO@535ck5BSI609e2
 R2
 R3
-w1745978061
-8C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Unidad_Control.v
-FC:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Unidad_Control.v
-!i122 21
+w1745981316
+8C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v
+FC:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v
+!i122 142
 L0 1 42
 R4
 r1
 !s85 0
 31
-R5
-!s107 C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Unidad_Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Unidad_Control.v|
+!s108 1745991708.000000
+!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v|
 !i113 1
 R6
 R7

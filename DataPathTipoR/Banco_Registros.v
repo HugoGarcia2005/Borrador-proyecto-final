@@ -15,14 +15,15 @@ initial begin
 end
 
 always @* begin
-	R_data_1=MEM_BANCO[R_register_1];
-	R_data_2=MEM_BANCO[R_register_2];
-end
-
-always @* begin
-	if(RegEn)begin
-		MEM_BANCO[W_register]=W_data;
-	end
+    if (RegEn) begin
+        MEM_BANCO[W_register] = W_data; // Escritura bloqueante
+        // Ignorar lecturas durante escritura para evitar bucle
+        R_data_1 = MEM_BANCO[R_register_1];
+        R_data_2 = MEM_BANCO[R_register_2];
+    end else begin
+        R_data_1 = MEM_BANCO[R_register_1];
+        R_data_2 = MEM_BANCO[R_register_2];
+    end
 end
 
 endmodule
