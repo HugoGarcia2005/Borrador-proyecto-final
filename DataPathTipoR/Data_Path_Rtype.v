@@ -1,4 +1,5 @@
 module DPTR (
+	input clk_dtpr,
 	input [31:0] instruccion,
 	output ZF_DPTR
 );
@@ -25,6 +26,7 @@ UC uc_dptr(
 );
 
 BR br_dptr(
+	.clk(clk_dtpr),
 	.R_register_1(instruccion[25:21]),
 	.R_register_2(instruccion[20:16]),
 	.W_register(instruccion[15:11]),

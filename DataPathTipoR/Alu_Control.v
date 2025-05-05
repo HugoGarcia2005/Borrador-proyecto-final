@@ -33,7 +33,12 @@ always @* begin
 				6'b101010:
 				begin
 					Op = 4'b0111;
-				end		
+				end
+				
+				6'b000000:
+				begin
+					Op = 4'b1111;
+				end
 			endcase
 		//SW/LW
 		3'b000:

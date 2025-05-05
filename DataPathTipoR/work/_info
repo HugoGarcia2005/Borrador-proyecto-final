@@ -10,49 +10,49 @@ z2
 cModel Technology
 dC:/intelFPGA/20.1
 vAC
-Z0 !s110 1745991710
+Z0 !s110 1746406436
 !i10b 1
-!s100 lD58HYFQiL?<cQ87j7>]z0
+!s100 Q`;h9l5eHC`G?QLkaX6ie3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-INDgGgP9::8:k]S>Hb5RzA3
+IagV@1JgNlPV=K`o71nzVX3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/Yogo/Desktop/Nueva carpeta
-w1745983024
-8C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v
-!i122 147
-L0 1 51
+Z3 dC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR
+w1746326242
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v
+!i122 242
+L0 1 56
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1745991710.000000
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Alu_Control.v|
+Z5 !s108 1746406436.000000
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
 n@a@c
 vALU
-Z8 !s110 1745991711
+R0
 !i10b 1
-!s100 _nD2<oA7]Dm1UEIW<97WZ3
+!s100 dVBKWWRJn;@3<mhKdbK<S0
 R1
-IgCS0D^:=lF6`aY;DgMgII3
+I8[MZ8A<3B4^l07LYlhF6W2
 R2
 R3
-w1745981675
-8C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Alu.v
-!i122 148
-L0 1 50
+w1746326487
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v
+!i122 243
+L0 2 52
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Alu.v|
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v|
 !i113 1
 R6
 R7
@@ -60,47 +60,47 @@ n@a@l@u
 vBR
 R0
 !i10b 1
-!s100 I9>[:Sl`6jlf;UJMQkaZH2
+!s100 6aU;EiQ]ZJ31:8:aCmn1O2
 R1
-I8?4eMAm=838hzdoI:IIz51
+IZ^3Vf1a<Hf2ZIkhMjFGLU0
 R2
 R3
-w1745990818
-8C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v
-!i122 146
-L0 1 29
+w1746328970
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v
+!i122 241
+L0 1 30
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v|
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v|
 !i113 1
 R6
 R7
 n@b@r
 vDataPath_TB
-R8
+R0
 !i10b 1
-!s100 @82?DmhaB6j`;_bN5]=no1
+!s100 W7_KzE9gZ?:GB3b`TjZ9I2
 R1
-I8TY24lm[=NY`b7_jjP60o2
+I40GKl3NT<hioJH]P^7GPL1
 R2
 R3
-w1745991703
-8C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v
-!i122 149
-L0 2 21
+w1746330296
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_TB.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_TB.v
+!i122 247
+L0 2 38
 R4
 r1
 !s85 0
 31
-!s108 1745991711.000000
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/DataPath_TB.v|
+R5
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_TB.v|
 !i113 1
 R6
 R7
@@ -108,95 +108,239 @@ n@data@path_@t@b
 vDPTR
 R0
 !i10b 1
-!s100 7@U]m1RiEK=g:oEWmCT`m3
+!s100 zXDV?6bVd?T`OYGCVnEbM3
 R1
-IdR:_ZQL27i9_Bh@^0;h>>3
+IWcfchfXSa`G=4L^V>j;RT1
 R2
 R3
-w1745981327
-8C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v
-!i122 145
-L0 1 66
+w1746329326
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v
+!i122 246
+L0 1 68
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v|
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v|
 !i113 1
 R6
 R7
 n@d@p@t@r
+vDPTR_FETCH_F1
+Z8 !s110 1746406437
+!i10b 1
+!s100 Q>`lU^48YG8m68_Al8d@T3
+R1
+I@i[H5PUBonnAI`2B[DbQa1
+R2
+R3
+w1746405943
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v
+!i122 252
+L0 1 21
+R4
+r1
+!s85 0
+31
+Z9 !s108 1746406437.000000
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v|
+!i113 1
+R6
+R7
+n@d@p@t@r_@f@e@t@c@h_@f1
+vDPTR_FETCH_F1_TB
+R8
+!i10b 1
+!s100 _3m1og<9b9b@F7V3KZ0KN0
+R1
+I=B^^=P<aN4_dlSQ0H5ZP`3
+R2
+R3
+w1746406430
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v
+!i122 253
+L0 2 27
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v|
+!i113 1
+R6
+R7
+n@d@p@t@r_@f@e@t@c@h_@f1_@t@b
+vFETCH
+R8
+!i10b 1
+!s100 T<8jJOn<F]7>HW`[^mM_n3
+R1
+I5>N[S54B`gP]eEElNTl2m0
+R2
+R3
+w1746405196
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v
+!i122 251
+L0 1 27
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v|
+!i113 1
+R6
+R7
+n@f@e@t@c@h
 vMEM
 R0
 !i10b 1
 !s100 PNU41JTKjO8ZIlA4aXBhS2
 R1
-I7jzSc?nVXPP>1F@SNQRz23
+IZB9IMA>X^o:o55>WPedzb3
 R2
 R3
-w1745981323
-8C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v
-!i122 144
+w1745978480
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v
+!i122 244
 L0 1 26
 R4
 r1
 !s85 0
 31
 R5
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Memoria_Datos.v|
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v|
 !i113 1
 R6
 R7
 n@m@e@m
-vMUX
+vMEM_INST
 R0
 !i10b 1
-!s100 2:c0mcefaSk^CEO_XX<Yo2
+!s100 Kk7Z=5aN<dPPEZfDmdPV?1
 R1
-Ice`=JL7lCl1_;U]5h7:Q40
+IYmWFB8m>C^0_lKeba19n=2
 R2
 R3
-w1745981320
-8C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v
-!i122 143
-L0 1 17
+w1746405212
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v
+!i122 248
+L0 1 16
 R4
 r1
 !s85 0
 31
-!s108 1745991709.000000
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Multiplexor.v|
+R5
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v|
+!i113 1
+R6
+R7
+n@m@e@m_@i@n@s@t
+vMUX
+R0
+!i10b 1
+!s100 2@eC?3m^OzE6jRHa9;@6Y2
+R1
+IZS<Ioze62<RnzR3FhTd882
+R2
+R3
+w1746327530
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v
+!i122 245
+Z10 L0 1 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v|
 !i113 1
 R6
 R7
 n@m@u@x
+vPC
+R8
+!i10b 1
+!s100 jA8A6?Ca:C8YdUl3HYHXK0
+R1
+I]P6XGgJDh3aWDTg1hE<ln1
+R2
+R3
+w1746405215
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v
+!i122 250
+R10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v|
+!i113 1
+R6
+R7
+n@p@c
+vSUMADOR
+R0
+!i10b 1
+!s100 h35>aRV;NomB=G[N?>YO31
+R1
+IdgTVB]`NK8NM9<DF6z8Q:0
+R2
+R3
+w1746405217
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v
+!i122 249
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v|
+!i113 1
+R6
+R7
+n@s@u@m@a@d@o@r
 vUC
-!s110 1745991709
+R0
 !i10b 1
 !s100 [4]Vzl0Xc63fgb?^;Jekf3
 R1
-IkB2AdPO@535ck5BSI609e2
+I]j[SLZfLGEZF_dGE<4KOI3
 R2
 R3
-w1745981316
-8C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v
-FC:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v
-!i122 142
+w1745978061
+8C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v
+FC:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v
+!i122 240
 L0 1 42
 R4
 r1
 !s85 0
 31
-!s108 1745991708.000000
-!s107 C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Yogo/Desktop/Nueva carpeta/Unidad_Control.v|
+!s108 1746406435.000000
+!s107 C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v|
 !i113 1
 R6
 R7

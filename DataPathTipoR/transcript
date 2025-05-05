@@ -1,16 +1,12 @@
-# Compile of Unidad_Control.v was successful.
-# Compile of Multiplexor.v was successful.
-# Compile of Memoria_Datos.v was successful.
-# Compile of Data_Path_Rtype.v was successful.
-# Compile of Banco_Registros.v was successful.
-# Compile of Alu_Control.v was successful.
-# Compile of Alu.v was successful.
-# Compile of DataPath_TB.v was successful.
-# 8 compiles, 0 failed with no errors.
-vsim -gui work.DataPath_TB
-# vsim -gui work.DataPath_TB 
-# Start time: 23:07:30 on Apr 29,2025
-# Loading work.DataPath_TB
+vsim work.DPTR_FETCH_F1_TB
+# vsim work.DPTR_FETCH_F1_TB 
+# Start time: 18:53:37 on May 04,2025
+# Loading work.DPTR_FETCH_F1_TB
+# Loading work.DPTR_FETCH_F1
+# Loading work.FETCH
+# Loading work.PC
+# Loading work.SUMADOR
+# Loading work.MEM_INST
 # Loading work.DPTR
 # Loading work.UC
 # Loading work.BR
@@ -19,45 +15,31 @@ vsim -gui work.DataPath_TB
 # Loading work.MEM
 # Loading work.MUX
 # Compile of Unidad_Control.v was successful.
-# Compile of Multiplexor.v was successful.
-# Compile of Memoria_Datos.v was successful.
-# Compile of Data_Path_Rtype.v was successful.
 # Compile of Banco_Registros.v was successful.
 # Compile of Alu_Control.v was successful.
 # Compile of Alu.v was successful.
-# Compile of DataPath_TB.v was successful.
-# 8 compiles, 0 failed with no errors.
-run -all
-#############  Autofindloop Analysis  ###############
-#############  Loop found at time 5 ns ###############
-#   Active process: /DataPath_TB/DPTR_TB/mux_dptr/#IMPLICIT-WIRE(W_data_BR)#59 @ sub-iteration 0
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:59
-#   Active process: /DataPath_TB/DPTR_TB/br_dptr/#ALWAYS#17 @ sub-iteration 1
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:27
-#   Active process: /DataPath_TB/DPTR_TB/br_dptr/#IMPLICIT-WIRE(R_data_1)#27 @ sub-iteration 2
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:27
-#   Active process: /DataPath_TB/DPTR_TB/alu_dptr/#IMPLICIT-WIRE(Res)#43 @ sub-iteration 3
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:43
-#   Active process: /DataPath_TB/DPTR_TB/mux_dptr/#IMPLICIT-WIRE(W_data_BR)#59 @ sub-iteration 4
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:59
-################# END OF LOOP #################
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
-quit -sim
-# End time: 23:13:53 on Apr 29,2025, Elapsed time: 0:06:23
-# Errors: 1, Warnings: 3
-# Compile of Unidad_Control.v was successful.
-# Compile of Multiplexor.v was successful.
 # Compile of Memoria_Datos.v was successful.
+# Compile of Multiplexor.v was successful.
 # Compile of Data_Path_Rtype.v was successful.
-# Compile of Banco_Registros.v was successful.
-# Compile of Alu_Control.v was successful.
-# Compile of Alu.v was successful.
 # Compile of DataPath_TB.v was successful.
-# 8 compiles, 0 failed with no errors.
-vsim -gui work.DataPath_TB
-# vsim -gui work.DataPath_TB 
-# Start time: 23:29:46 on Apr 29,2025
-# Loading work.DataPath_TB
+# Compile of Memoria_Instrucciones.v was successful.
+# Compile of Sumador.v was successful.
+# Compile of Program_Counter.v was successful.
+# Compile of Ciclo_Fetch.v was successful.
+# Compile of DataPath_Fetch.v was successful.
+# Compile of DataPath_Fetch_TB.v was successful.
+# 14 compiles, 0 failed with no errors.
+vsim work.DPTR_FETCH_F1_TB
+# End time: 18:54:02 on May 04,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2
+# vsim work.DPTR_FETCH_F1_TB 
+# Start time: 18:54:02 on May 04,2025
+# Loading work.DPTR_FETCH_F1_TB
+# Loading work.DPTR_FETCH_F1
+# Loading work.FETCH
+# Loading work.PC
+# Loading work.SUMADOR
+# Loading work.MEM_INST
 # Loading work.DPTR
 # Loading work.UC
 # Loading work.BR
@@ -65,46 +47,19 @@ vsim -gui work.DataPath_TB
 # Loading work.ALU
 # Loading work.MEM
 # Loading work.MUX
+add wave -position insertpoint sim:/DPTR_FETCH_F1_TB/*
 run -all
-#############  Autofindloop Analysis  ###############
-#############  Loop found at time 5 ns ###############
-#   Active process: /DataPath_TB/DPTR_TB/br_dptr/#IMPLICIT-WIRE(R_data_1)#27 @ sub-iteration 0
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:27
-#   Active process: /DataPath_TB/DPTR_TB/alu_dptr/#IMPLICIT-WIRE(Res)#43 @ sub-iteration 1
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:43
-#   Active process: /DataPath_TB/DPTR_TB/mux_dptr/#IMPLICIT-WIRE(W_data_BR)#59 @ sub-iteration 2
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:59
-#   Active process: /DataPath_TB/DPTR_TB/br_dptr/#IMPLICIT-WIRE(R_data_1)#27 @ sub-iteration 3
-#     Source: C:/Users/Yogo/Desktop/Nueva carpeta/Data_Path_Rtype.v:27
-################# END OF LOOP #################
-# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 5 ns.
-quit -sim
-# End time: 23:30:41 on Apr 29,2025, Elapsed time: 0:00:55
-# Errors: 1, Warnings: 2
-# Compile of Unidad_Control.v was successful.
-# Compile of Multiplexor.v was successful.
-# Compile of Memoria_Datos.v was successful.
-# Compile of Data_Path_Rtype.v was successful.
-# Compile of Banco_Registros.v was successful.
-# Compile of Alu_Control.v was successful.
-# Compile of Alu.v was successful.
-# Compile of DataPath_TB.v was successful.
-# 8 compiles, 0 failed with no errors.
-vsim -gui work.DataPath_TB
-# vsim -gui work.DataPath_TB 
-# Start time: 23:42:15 on Apr 29,2025
-# Loading work.DataPath_TB
-# Loading work.DPTR
-# Loading work.UC
-# Loading work.BR
-# Loading work.AC
-# Loading work.ALU
-# Loading work.MEM
-# Loading work.MUX
-add wave -position end  sim:/DataPath_TB/instruccion
-add wave -position end  sim:/DataPath_TB/ZF_DPTR
+# ** Note: $stop    : C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v(25)
+#    Time: 205 ns  Iteration: 0  Instance: /DPTR_FETCH_F1_TB
+# Break in Module DPTR_FETCH_F1_TB at C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v line 25
+restart -f
+add wave -position end  sim:/DPTR_FETCH_F1_TB/f1_tb/dtpr_f1/alu_dptr/Op_1
+add wave -position end  sim:/DPTR_FETCH_F1_TB/f1_tb/dtpr_f1/alu_dptr/Op_2
+add wave -position end  sim:/DPTR_FETCH_F1_TB/f1_tb/dtpr_f1/alu_dptr/Res
 run -all
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 33 of file "DatosBR.txt". (Current address [32], address range [0:31])    : C:/Users/Yogo/Desktop/Nueva carpeta/Banco_Registros.v(14)
-#    Time: 0 ns  Iteration: 0  Instance: /DataPath_TB/DPTR_TB/br_dptr
-# End time: 23:45:37 on Apr 29,2025, Elapsed time: 0:03:22
-# Errors: 0, Warnings: 3
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v(25)
+#    Time: 205 ns  Iteration: 0  Instance: /DPTR_FETCH_F1_TB
+# Break in Module DPTR_FETCH_F1_TB at C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch_TB.v line 25

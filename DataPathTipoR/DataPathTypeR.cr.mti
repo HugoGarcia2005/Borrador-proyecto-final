@@ -1,36 +1,92 @@
-C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu.v}
+C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ALU
 
 Top level modules:
 	ALU
 
-} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Alu_Control.v}
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Instrucciones.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module AC
+-- Compiling module MEM_INST
 
 Top level modules:
-	AC
+	MEM_INST
 
-} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Memoria_Datos.v}
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Sumador.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module MEM
+-- Compiling module SUMADOR
 
 Top level modules:
-	MEM
+	SUMADOR
 
-} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Banco_Registros.v}
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Ciclo_Fetch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FETCH
+
+Top level modules:
+	FETCH
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_TB.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\DataPath_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DataPath_TB
+
+Top level modules:
+	DataPath_TB
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Banco_Registros.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module BR
 
 Top level modules:
 	BR
 
-} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v {1 {vlog -work work -stats=none {C:\Users\danie\Desktop\ADC\Practicas\DataPathTipoR\Unidad_Control.v}
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Memoria_Datos.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MEM
+
+Top level modules:
+	MEM
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Unidad_Control.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module UC
 
 Top level modules:
 	UC
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/DataPath_Fetch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DPTR_FETCH_F1
+
+Top level modules:
+	DPTR_FETCH_F1
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Alu_Control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AC
+
+Top level modules:
+	AC
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Multiplexor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Program_Counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v {1 {vlog -work work -stats=none C:/Users/danie/Desktop/ADC/Practicas/DataPathTipoR/Data_Path_Rtype.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DPTR
+
+Top level modules:
+	DPTR
 
 } {} {}}
